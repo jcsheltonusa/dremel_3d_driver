@@ -13,7 +13,8 @@ This driver and procedure may also be useful for direct Windows ARM installation
 * **Hardware:** Apple Silicon Mac, Dremel 3D20, and a direct USB-B to USB-C data cable (or direct adapter—avoid multi-port USB hubs if possible).
 * **Software:**
   * Parallels Desktop running **Windows 11 (ARM64)**.
-  * [Dremel 3D20 V1.8 Firmware ZIP] (download from Dremel).  * Either [Zadig](https://akeo.ie) (recommended) **or** the custom `.inf` file included in this repository.
+  * [Dremel 3D20 V1.8 Firmware ZIP] (download from Dremel).
+  * The custom `.inf` file included in this repository.
 
 ---
 
