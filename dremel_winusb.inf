@@ -1,0 +1,24 @@
+[Version]
+Signature = "$Windows NT$"
+Class = USBDevice
+ClassGUID = {88BAE032-5A81-49f0-BC3D-A4FF138216D6}
+Provider = %ManufacturerName%
+DriverVer = 11/24/2026,1.0.0.0
+
+[Manufacturer]
+%ManufacturerName% = Standard,NTARM64
+
+[Standard.NTARM64]
+%DeviceName% = USB_Install, USB\VID_2A89&PID_8889
+
+[USB_Install]
+Include = winusb.inf
+Needs = WINUSB.NT
+
+[USB_Install.Services]
+Include = winusb.inf
+Needs = WINUSB.NT.Services
+
+[Strings]
+ManufacturerName = "Dremel / FlashForge"
+DeviceName = "Dremel 3D20 WinUSB Device"
